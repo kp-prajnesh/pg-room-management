@@ -1,12 +1,10 @@
-function showPassword(){
+function showPassword() {
 
     var password = document.getElementById("password");
 
-    if(password.type === "password"){
+    if (password.type === "password") {
         password.type = "text";
-    }
-    else{
+    } else {
         password.type = "password";
     }
-
 }
